@@ -1,0 +1,110 @@
+[
+  {
+    "ID": 40001,
+    "Name": "Smuggler's Pack",
+    "Type": "Sewing",
+    "useOnlyStolenItems": false,
+    "allowedNonStolenItemsIds": [],
+    "keepItemOwnerOnFail": false,
+    "disableJunkSpawn": false,
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": true,
+      "itemToShow": {
+        "ID": 40001,
+        "name": "Empty Smuggler's Pack",
+        "itemnamespace": null
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "RecipeTags": [
+      "Open Sewer Magazine"
+    ],
+    "variantItemCategory": "None",
+    "variantItemAmount": 0,
+    "input": [
+      {
+        "Key": {
+          "ID": 14930,
+          "Title": "Empty Backpack",
+          "itemnamespace": null
+        },
+        "Value": 1.0
+      },
+      {
+        "Key": {
+          "name": "Cloth Roll",
+          "itemnamespace": null,
+          "ID": 12700
+        },
+        "Value": 1.0
+      },
+      {
+        "Key": {
+          "name": "Thread",
+          "itemnamespace": null,
+          "ID": 15750
+        },
+        "Value": 4.0
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Empty Smuggler's Pack",
+          "itemnamespace": null,
+          "ID": 40001
+        },
+        "Value": 1.0
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Empty Backpack",
+          "itemnamespace": null,
+          "ID": 14930
+        },
+        "Value": 1.0
+      },
+      {
+        "Key": {
+          "name": "Cloth Scraps",
+          "itemnamespace": null,
+          "ID": 12680
+        },
+        "Value": 2.0
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "useLiquidContainers": false,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "",
+        "itemnamespace": null,
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.5,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
+        "name": "",
+        "ID": -1
+      }
+    },
+    "FailChance": 0.5,
+    "RelevantSkill": "Sewing",
+    "SkillFactor": 1.0,
+    "ProcessTime": 500,
+    "Meta": null
+  }
+]

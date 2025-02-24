@@ -1,0 +1,78 @@
+[
+  {
+    "ID": 40001,
+    "Title": "Empty Smuggler's Pack",
+    "Categories": [
+      "Backpack",
+      "Backpack Empty"
+    ],
+    "Value": 1600,
+    "Description": "A backpack with a hidden compartment.  Police will not find stolen goods in the highlighted slots.",
+    "Stackable": 1,
+    "Appearance": {
+      "Material": "",
+      "SpritePath": "Sprites/Items/Backpack Empty",
+      "ColorValue": "RGBA(0.000, 0.000, 0.000, 0.000)",
+      "EmissionStrength": 0.0,
+      "PrefabPath": "Prefabs/Items/Backpack Empty",
+      "PrefabPathMany": "Prefabs/Items/Backpack Empty",
+      "SkinSpritePaths": []
+    },
+    "Actions": [
+      {
+        "type": "Backpack",
+        "bothHands": false,
+        "useEquip": false,
+        "wieldPrefabPath": null,
+        "Name": "Equip",
+        "UseSound": "",
+        "Data": null,
+        "$type": "OS.Items.ItemEquipable"
+      }
+    ],
+    "Attachments": {
+      "Name": "",
+      "Attachment1": "",
+      "Attachment2": ""
+    },
+    "Meta": []
+  },
+  {
+    "ID": 40002,
+    "Title": "Smuggler's Pack",
+    "Categories": [
+      "Backpack",
+      "Storage"
+    ],
+    "Value": 1600,
+    "Description": "A backpack with a hidden compartment.  Police will not find stolen goods in the highlighted slots.",
+    "Stackable": 1,
+    "Appearance": {
+      "Material": "",
+      "SpritePath": "Sprites/Items/Backpack",
+      "ColorValue": "RGBA(0.000, 0.000, 0.000, 0.000)",
+      "EmissionStrength": 0.0,
+      "PrefabPath": "Prefabs/Items/Backpack",
+      "PrefabPathMany": "Prefabs/Items/Backpack",
+      "SkinSpritePaths": []
+    },
+    "Actions": [
+      {
+        "type": "Backpack",
+        "bothHands": false,
+        "useEquip": false,
+        "wieldPrefabPath": null,
+        "Name": "Equip",
+        "UseSound": "",
+        "Data": null,
+        "$type": "OS.Items.ItemEquipable"
+      }
+    ],
+    "Attachments": {
+      "Name": "",
+      "Attachment1": "",
+      "Attachment2": ""
+    },
+    "Meta": []
+  }
+]
