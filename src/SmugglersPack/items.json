@@ -1,6 +1,6 @@
 [
   {
-    "ID": 40001,
+    "ID": 400001,
     "Title": "Empty Smuggler's Pack",
     "Categories": [
       "Backpack",
@@ -38,7 +38,7 @@
     "Meta": []
   },
   {
-    "ID": 40002,
+    "ID": 400002,
     "Title": "Smuggler's Pack",
     "Categories": [
       "Backpack",

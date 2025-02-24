@@ -1,6 +1,6 @@
 [
   {
-    "ID": 40001,
+    "ID": 400001,
     "Name": "Smuggler's Pack",
     "Type": "Sewing",
     "useOnlyStolenItems": false,
@@ -11,7 +11,7 @@
       "SpritePath": "",
       "CraftShowModel": true,
       "itemToShow": {
-        "ID": 40001,
+        "ID": 400001,
         "name": "Empty Smuggler's Pack",
         "itemnamespace": null
       }
@@ -55,7 +55,7 @@
         "Key": {
           "name": "Empty Smuggler's Pack",
           "itemnamespace": null,
-          "ID": 40001
+          "ID": 400001
         },
         "Value": 1.0
       }
