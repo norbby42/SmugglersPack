@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl></RepositoryUrl>
+    <RepositoryUrl>https://github.com/norbby42/SmugglersPack</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup>
