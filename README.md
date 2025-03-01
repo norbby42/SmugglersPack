@@ -16,6 +16,7 @@ It has a high fail chance: you may want to skill up your Sewing and look into so
 ## Installation
 
 Just like all other Obenseuer mods, you must first have BepInEx installed (https://stalburg.net/Obenseuer/Modding).
+This mod uses Lavender, so that must also be installed (https://github.com/leonarudo/Lavender/releases)
 Once that is done, extract the .zip to the Obenseuer/BepInEx/plugins folder.
 
 ## Configuration
