@@ -29,6 +29,10 @@
     <Reference Include="Lavender">
       <HintPath>..\..\..\..\Steam\steamapps\common\Obenseuer\BepInEx\plugins\Lavender.dll</HintPath>
     </Reference>
+
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\Steam\steamapps\common\Obenseuer\Obenseuer_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

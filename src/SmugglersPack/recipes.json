@@ -1,7 +1,7 @@
 [
   {
     "ID": 400001,
-    "Name": "Smuggler's Pack",
+    "Name": "Smuggler's Pack Insert",
     "Type": "Sewing",
     "useOnlyStolenItems": false,
     "allowedNonStolenItemsIds": [],
@@ -12,7 +12,7 @@
       "CraftShowModel": true,
       "itemToShow": {
         "ID": 400001,
-        "name": "Empty Smuggler's Pack",
+        "name": "Smuggler's Pack Insert'",
         "itemnamespace": null
       }
     },
@@ -48,24 +48,22 @@
           "ID": 15750
         },
         "Value": 4.0
+      },
+      {
+        "Key": {
+          "name": "Scrap Metal",
+          "itemnamespace": null,
+          "ID": 35180
+        },
+        "Value": 2.0
       }
     ],
     "output": [
       {
         "Key": {
-          "name": "Empty Smuggler's Pack",
+          "name": "Smuggler's Pack Insert",
           "itemnamespace": null,
           "ID": 400001
-        },
-        "Value": 1.0
-      }
-    ],
-    "outputFail": [
-      {
-        "Key": {
-          "name": "Empty Backpack",
-          "itemnamespace": null,
-          "ID": 14930
         },
         "Value": 1.0
       },
@@ -75,7 +73,25 @@
           "itemnamespace": null,
           "ID": 12680
         },
+        "Value": 1.0
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Cloth Scraps",
+          "itemnamespace": null,
+          "ID": 12680
+        },
         "Value": 2.0
+      },
+      {
+        "Key": {
+          "name": "Scrap Metal",
+          "itemnamespace": null,
+          "ID": 35180
+        },
+        "Value": 1.0
       }
     ],
     "metaSettings": {
@@ -101,7 +117,7 @@
         "ID": -1
       }
     },
-    "FailChance": 0.5,
+    "FailChance": 0.85,
     "RelevantSkill": "Sewing",
     "SkillFactor": 1.0,
     "ProcessTime": 500,
