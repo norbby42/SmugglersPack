@@ -26,5 +26,5 @@ If you want to tweak the recipe, that is stored in the recipes.json file in the 
 
 ## Notes
 
-Crummy art by yours truly (Quackers).  There's no model when it is dropped in the world, just a cube.  Anyone who wants to contribute better art, please send me a pull request ().
+Crummy art by yours truly (Quackers).  There's no model when it is dropped in the world, just a cube.  Anyone who wants to contribute better art, please send me a pull request (https://github.com/norbby42/SmugglersPack).
 The art for this mod is contained in the plugin folder.
