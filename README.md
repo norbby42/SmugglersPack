@@ -3,11 +3,15 @@
 A mod for Obenseuer that adds a "Smuggler's Pack Insert", a new item that can only be placed in the last slot of backpacks and prevents the police from detecting items in the bottom row of the backpack.
 Think of it like a false bottom for the backpack.
 
+![Cooler Bag with the Smuggler's Pack Insert](Readme/coolerbagwithinsert.png)
+
 ## Crafting
 
 The recipe for the insert can be learned from the OS Magazine, but is not required to perform the craft.
 The craft costs: 1 Empty Backpack, 1 Cloth Roll, 4 Thread, 2 Scrap Metal
 It has a high fail chance: you may want to skill up your Sewing and look into some shroomy enhancements.
+
+![Crafting recipe](Readme/craftingrecipe.png)
 
 ## Installation
 
