@@ -95,32 +95,37 @@
       }
     ],
     "metaSettings": {
-      "setIntegrity": 1.0,
-      "setIntegrityFail": 0.5,
-      "useAmmoAsInput": true,
-      "setAmmoOfMax": 1.0,
-      "setAmmoOfMaxFail": 0.0,
-      "useLiquidContainers": false,
-      "returnLiquidContainers": true,
-      "putLiquidsIntoContainer": {
-        "name": "",
-        "itemnamespace": null,
-        "ID": 0
-      },
-      "qualityFactor": 1.0,
-      "qualityFactorFail": 0.5,
-      "useFixedQuality": false,
-      "fixedQuality": 1.0,
-      "mailName": "",
-      "mailReceiver": {
-        "name": "",
-        "ID": -1
-      }
-    },
-    "FailChance": 0.85,
-    "RelevantSkill": "Sewing",
-    "SkillFactor": 1.0,
-    "ProcessTime": 500,
-    "Meta": null
+		"setIntegrity": 1.0,
+		"setIntegrityFail": 0.5,
+		"useAmmoAsInput": true,
+		"setAmmoOfMax": 1.0,
+		"setAmmoOfMaxFail": 0.0,
+		"ammoInputItemsToIgnore": [],
+		"useLiquidContainers": false,
+		"returnLiquidContainers": true,
+		"putLiquidsIntoContainer": {
+			"name": "",
+			"itemnamespace": null,
+			"ID": 0
+		},
+		"qualityFactor": 1.0,
+		"qualityFactorFail": 0.5,
+		"useFixedQuality": false,
+		"fixedQuality": 1.0,
+		"mailName": "",
+		"mailReceiver": {
+			"name": "",
+			"ID": 0
+		},
+		"certificateLinkedItem": null
+	},
+	"FailChance": 0.5,
+	"RelevantSkill": "Sewing",
+	"MinimumSkill": 0,
+	"HardMinimumSkill": false,
+	"SkillFactor": 1.0,
+	"SkillGainFactor": 1.0,
+	"ProcessTime": 500,
+	"Meta": null
   }
 ]

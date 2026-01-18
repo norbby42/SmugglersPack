@@ -1,0 +1,20 @@
+[
+    {
+        "ID": 1,
+        "AssetType": "Image",
+        "Data": {
+            "path": "Backpack Insert.png",
+            "name": ""
+        }
+    },
+    {
+        "ID": 2,
+        "AssetType": "OBJ",
+        "Data": {
+            "path": "Backpack Insert.obj",
+            "name": "Dummy cube",
+            "objTexturePaths": [
+            ]
+        }
+    }
+]

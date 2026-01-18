@@ -10,10 +10,10 @@
     "Stackable": 1,
     "Appearance": {
       "Material": "",
-      "SpritePath": "Backpack Insert.png",
+      "SpritePath": "#lv_SmugglersPack-1",
       "ColorValue": "RGBA(0.000, 0.000, 0.000, 0.000)",
       "EmissionStrength": 0.0,
-      "PrefabPath": "Backpack Insert.obj",
+      "PrefabPath": "#lv_SmugglersPack-2",
       "PrefabPathMany": "",
       "SkinSpritePaths": []
     },

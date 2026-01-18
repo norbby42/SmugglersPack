@@ -27,11 +27,13 @@ public class Plugin : BaseUnityPlugin
         Lavender.Lavender.AddCustomItemsFromJson(itemsPath, LCMPluginInfo.PLUGIN_NAME);
         string recipesPath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "recipes.json");
         Lavender.Lavender.AddCustomRecipesFromJson(recipesPath, LCMPluginInfo.PLUGIN_NAME);
+        Lavender.Lavender.AddLavenderAssets(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "assets.json"), LCMPluginInfo.PLUGIN_NAME);
 
         Harmony myHarmony = new(LCMPluginInfo.PLUGIN_GUID);
         myHarmony.PatchAll(typeof(InventoryPatches));
         myHarmony.PatchAll(typeof(StoragePatches));
         myHarmony.PatchAll(typeof(ItemUIPatches));
+        myHarmony.PatchAll(typeof(SleepPatches));
 
         ItemUIPatches.Load();
     }

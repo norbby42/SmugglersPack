@@ -24,16 +24,6 @@
           "HarmonyX": "2.7.0"
         }
       },
-      "Lavender": {
-        "type": "Direct",
-        "requested": "[0.2.0, )",
-        "resolved": "0.2.0",
-        "contentHash": "57BXd4ps1fWwKZ6BX+00d1oWIyMru6teU6dn+NBWn9OyIh14Joh+HtkNrvO/XhOkkPDxQulCu9000OVP++EKIQ==",
-        "dependencies": {
-          "BepInEx.Core": "5.4.21",
-          "Newtonsoft.Json": "13.0.3"
-        }
-      },
       "Microsoft.NETFramework.ReferenceAssemblies": {
         "type": "Direct",
         "requested": "[1.0.2, )",
@@ -88,11 +78,6 @@
         "dependencies": {
           "Mono.Cecil": "0.11.4"
         }
-      },
-      "Newtonsoft.Json": {
-        "type": "Transitive",
-        "resolved": "13.0.3",
-        "contentHash": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ=="
       }
     }
   }
